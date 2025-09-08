@@ -1,12 +1,17 @@
 import './App.css'
+import Footer from './Footer'
+import Header from './Header'
+import HeroSection from './HeroSection'
 
 function App() {
   
 
   return (
     <>
-      <h1 className='font-bold text-4xl'>hello</h1>
-        
+    <Header></Header>
+    <HeroSection></HeroSection>
+
+    <Footer></Footer>
     </>
   )
 }
